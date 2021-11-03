@@ -1,29 +1,28 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *Smilei*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+*Smilei is a Particle-In-Cell code for plasma simulation. Open-source, collaborative, user-friendly and designed for high performances on super-computers, it is applied to a wide range of physics studies: from relativistic laser-plasma interaction to astrophysics. Its primary audience is plasma physicists.*
 
 ### Stats
 
-| Description | Your answer |
+| Description | Particle-In-Cell code for plasma simulation |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2020-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | https://github.com/SmileiPIC/Smilei |
+| Main/documentation website | https://smileipic.github.io/Smilei/ |
+| Year project was started | 2013 |
+| Number of contributors in the past year | 22 |
+| Number of contributors in the lifetime of the project | 25 |
+| Number of distinct affiliations | 3-7 |
+| Where do development discussions take place? | Element.io & Github/Issues |
+| Typical number of emails/comments per week? | 20 |
+| Typical number of commits per week? | 10 |
+| Typical commit size | Large range but roughly on average: 3 files changes and 15 insertions/deletions |
+| How does the project accept contributions? | pull requests |
+| Does the project have an automated test suite? | no, but it has many benchmark cases |
+| Does the project use continuous integration? | yes |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
@@ -36,13 +35,7 @@ encountered a problem.
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
-
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+I've encountered a problem! When I attempt to install the dependencies I get the error: 'No output from Fortran test program'. Googling the problem has not reaped any sufficient fixes. I'm very interested in their PIC implementation and their use of parallelization so I'd really like to get this working but am feeling a bit stuck.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
